@@ -17,6 +17,20 @@ p {
   margin-bottom: 15px;
 }
 
+h1 {
+  color: #0b0c0c;
+  font-family: "GDS Transport", arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 700;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1.04167;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
 div[data-dynamic-label-for="username"] {
   display: none
 }
@@ -84,11 +98,17 @@ input:focus {
     margin-bottom: 20px;
   }
 
+  h1 {
+    font-size: 36px;
+    font-size: 2.25rem;
+    line-height: 1.11111;
+  }
+
   .govuk-label {
     font-size: 19px;
     font-size: 1.1875rem;
     line-height: 1.31579;
-}
+  }
 
   input {
     font-size: 19px;
