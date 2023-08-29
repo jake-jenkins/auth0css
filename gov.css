@@ -63,8 +63,8 @@ label {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-weight: 400;
-  font-size: 16px;
-  font-size: 1rem;
+  font-size: 19px;
+  font-size: 1.1875rem;
   line-height: 1.25;
   color: #0b0c0c;
   display: block;
