@@ -3,6 +3,15 @@ body {
   background-color: white;
 }
 
+.pagecont {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+#bodycont {
+  flex-grow: 1;
+}
 
 p {
   color: #0b0c0c;
