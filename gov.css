@@ -21,7 +21,7 @@ div[data-dynamic-label-for="username"] {
   display: none
 }
 
-.no-js {
+label.no-js {
   clip: unset;
   clip-path: unset;
   height: unset;
