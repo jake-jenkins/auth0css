@@ -40,6 +40,10 @@ h1 {
   margin-bottom: 20px;
 }
 
+form[data-form-primary="true"] p {
+  display: none;
+}
+
 div[data-dynamic-label-for="username"] {
   display: none
 }
