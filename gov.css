@@ -17,6 +17,15 @@ p {
   margin-bottom: 15px;
 }
 
+div[data-dynamic-label-for="username"] {
+  display: none
+  }
+  
+  
+  div[data-dynamic-label-for="password"] {
+  display: none;
+  }
+
 @media (min-width: 40.0625em) {
 
   .govuk-body-m,
