@@ -19,12 +19,21 @@ p {
 
 div[data-dynamic-label-for="username"] {
   display: none
-  }
-  
-  
-  div[data-dynamic-label-for="password"] {
+}
+
+.no-js {
+  clip: unset;
+  clip-path: unset;
+  height: unset;
+  width: unset;
+  position: unset;
+  display: block;
+}
+
+
+div[data-dynamic-label-for="password"] {
   display: none;
-  }
+}
 
 @media (min-width: 40.0625em) {
 
