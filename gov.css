@@ -166,11 +166,11 @@ button[value="resend-code"] {
   display: inline;
   cursor: pointer;
   vertical-align: baseline;
-  font-size: inherit;
   border-radius: 3px;
   color: #007bad;
   background-color: transparent;
   font-size: 19px;
+  font-weight: 700 !important;
   text-decoration: underline;
 }
 
