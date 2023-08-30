@@ -136,6 +136,17 @@ button {
   -webkit-appearance: none;
 }
 
+/* SMS phone number */
+
+.ulp-authenticator-selector-text {
+  background: #f3f2f1;
+  display: inline-block;
+  line-height: 52px;
+  margin-left: -16px;
+  min-height: 52px;
+  padding: 0 16px;
+}
+
 @media (min-width: 40.0625em) {
 
   p {
