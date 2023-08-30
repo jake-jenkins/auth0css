@@ -229,6 +229,9 @@ div[data-dynamic-label-for="code"] {
   display: inline-block;
   line-height: 52px;
   min-height: 52px;
+  font-family: "GDS Transport", arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 400;
 }
 
 /* #create-account,
