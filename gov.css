@@ -153,9 +153,25 @@ div[data-dynamic-label-for="code"] {
   min-height: 52px;
 }
 
-#create-account,
+/* #create-account,
 #forgot-password {
   display: none;
+} */
+
+button[value="resend-code"] {
+  border: 0;
+  padding: 2px;
+  margin: 0;
+  line-height: 18px;
+  display: inline;
+  cursor: pointer;
+  vertical-align: baseline;
+  font-size: inherit;
+  border-radius: 3px;
+  color: #007bad;
+  background-color: transparent;
+  font-size: 19px;
+  text-decoration: underline;
 }
 
 @media (min-width: 40.0625em) {
