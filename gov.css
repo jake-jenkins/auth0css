@@ -161,7 +161,7 @@ div[data-dynamic-label-for="code"] {
 button[value="resend-code"] {
   border: 0;
   padding: 2px;
-  margin: 0;
+  margin: 8px 0 0 0;
   line-height: 18px;
   display: inline;
   cursor: pointer;
@@ -177,7 +177,7 @@ button[value="resend-code"] {
 button[value="pick-authenticator"] {
   border: 0;
   padding: 2px;
-  margin: 0;
+  margin: 16px 0 0 0;
   line-height: 18px;
   display: inline;
   cursor: pointer;
