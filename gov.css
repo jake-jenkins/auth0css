@@ -169,6 +169,7 @@ button[value="resend-code"] {
   border-radius: 3px;
   color: #007bad;
   background-color: transparent;
+  box-shadow: none;
   font-size: 19px;
   font-weight: 700 !important;
   text-decoration: underline;
@@ -185,6 +186,7 @@ button[value="pick-authenticator"] {
   border-radius: 3px;
   color: #007bad;
   background-color: transparent;
+  box-shadow: none;
   font-size: 19px;
   font-weight: 700 !important;
   text-decoration: underline;
