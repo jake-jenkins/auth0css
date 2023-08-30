@@ -146,12 +146,16 @@ div[data-dynamic-label-for="code"] {
 
 .ulp-authenticator-selector-text {
   margin-bottom: 12px;
+  padding: 0 16px;
   background: #f3f2f1;
   display: inline-block;
   line-height: 52px;
-  margin-left: -16px;
   min-height: 52px;
-  padding: 0 16px;
+}
+
+#create-account,
+#forgot-password {
+  display: none;
 }
 
 @media (min-width: 40.0625em) {
