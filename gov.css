@@ -136,6 +136,11 @@ button {
   -webkit-appearance: none;
 }
 
+button[data-action-button-primary] {
+  font-size: 19px;
+  line-height: 1;
+}
+
 #custom-prompt-logo {
   display: none;
 }
@@ -253,7 +258,7 @@ button[value="resend-code"] {
   cursor: pointer;
   vertical-align: baseline;
   border-radius: 3px;
-  color: #007bad;
+  color: #1d70b8;
   background-color: transparent;
   box-shadow: none;
   font-size: 19px;
@@ -271,7 +276,7 @@ button[value="pick-authenticator"] {
   cursor: pointer;
   vertical-align: baseline;
   border-radius: 3px;
-  color: #007bad;
+  color: #1d70b8;
   background-color: transparent;
   box-shadow: none;
   font-size: 19px;
