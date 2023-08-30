@@ -140,6 +140,10 @@ div[data-dynamic-label-for="code"] {
   display: none;
 }
 
+._prompt-box-outer header {
+  margin-bottom: 40px;
+}
+
 @media (min-width: 40.0625em) {
 
   p {
