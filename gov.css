@@ -137,7 +137,6 @@ button {
 }
 
 button[data-action-button-primary] {
-  margin-top: 24px;
   font-size: 19px;
   line-height: 1;
 }
