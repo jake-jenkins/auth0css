@@ -138,7 +138,7 @@ button {
 
 button[data-action-button-primary] {
   font-size: 19px;
-  line-height: 1;
+  line-height: normal;
 }
 
 #custom-prompt-logo {
