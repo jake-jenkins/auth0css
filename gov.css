@@ -232,6 +232,7 @@ div[data-dynamic-label-for="code"] {
 }
 
 .ulp-authenticator-selector-text {
+  display: block;
   margin-bottom: 12px;
   padding: 0 16px;
   background: #f3f2f1;
