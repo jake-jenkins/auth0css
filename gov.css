@@ -252,7 +252,7 @@ div[data-dynamic-label-for="code"] {
 button[value="resend-code"] {
   border: 0;
   padding: 2px;
-  margin: 8px 0 0 0;
+  /* margin: 8px 0 0 0; */
   line-height: 18px;
   display: inline;
   cursor: pointer;
@@ -262,7 +262,7 @@ button[value="resend-code"] {
   background-color: transparent;
   box-shadow: none;
   font-size: 19px;
-  font-weight: 700 !important;
+  /* font-weight: 700 !important; */
   text-decoration: underline;
 }
 
@@ -270,7 +270,7 @@ button[value="resend-code"] {
 button[value="pick-authenticator"] {
   border: 0;
   padding: 2px;
-  margin: 16px 0 0 0;
+  /* margin: 16px 0 0 0; */
   line-height: 18px;
   display: inline;
   cursor: pointer;
@@ -280,7 +280,7 @@ button[value="pick-authenticator"] {
   background-color: transparent;
   box-shadow: none;
   font-size: 19px;
-  font-weight: 700 !important;
+  /* font-weight: 700 !important; */
   text-decoration: underline;
 }
 
