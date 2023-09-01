@@ -15,29 +15,28 @@ body {
 }
 
 p {
-  color: #0b0c0c;
+  margin-top: 0;
+  margin-bottom: 15px;
   font-family: "GDS Transport", arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-size: 1.25rem;
   font-weight: 400;
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.25;
-  margin-top: 0;
-  margin-bottom: 15px;
+  line-height: 1.5;
+  color: #0b0c0c;
 }
 
 h1 {
-  color: #0b0c0c;
-  font-family: "GDS Transport", arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 700 !important;
-  font-size: 2.25rem !important;
-  line-height: 1.1111111111;
   display: block;
   margin-top: 0;
   margin-bottom: 20px;
+  font-family: "GDS Transport", arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 2.25rem !important;
+  font-weight: 700 !important;
+  line-height: 1.1111111111;
+  color: #0b0c0c;
 }
 
 form[data-form-primary="true"] p {
@@ -290,12 +289,12 @@ input[name="code"] {
 
 @media (min-width: 40.0625em) {
 
-  p {
+  /* p {
     margin-bottom: 20px;
     font-size: 19px;
     font-size: 1.1875rem;
     line-height: 1.31579;
-  }
+  } */
 
   /* h1 {
     font-size: 36px;
