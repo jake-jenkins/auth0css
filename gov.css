@@ -32,10 +32,9 @@ h1 {
   font-family: "GDS Transport", arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-weight: 700;
-  font-size: 24px;
-  font-size: 1.5rem;
-  line-height: 1.04167;
+  font-weight: 700 !important;
+  font-size: 2.25rem !important;
+  line-height: 1.1111111111;
   display: block;
   margin-top: 0;
   margin-bottom: 20px;
@@ -57,7 +56,6 @@ label.no-js {
   position: unset;
   display: block;
 }
-
 
 div[data-dynamic-label-for="password"] {
   display: none;
@@ -264,7 +262,6 @@ button[value="resend-code"] {
   background-color: transparent;
   box-shadow: none;
   font-size: 19px;
-  /* font-weight: 700 !important; */
   text-decoration: underline;
 }
 
@@ -282,13 +279,14 @@ button[value="pick-authenticator"] {
   background-color: transparent;
   box-shadow: none;
   font-size: 19px;
-  /* font-weight: 700 !important; */
   text-decoration: underline;
 }
 
 input[name="code"] {
   margin-bottom: 24px;
 }
+
+/* Desktop styles */
 
 @media (min-width: 40.0625em) {
 
@@ -299,11 +297,11 @@ input[name="code"] {
     line-height: 1.31579;
   }
 
-  h1 {
+  /* h1 {
     font-size: 36px;
     font-size: 2.25rem;
     line-height: 1.11111;
-  }
+  } */
 
   label {
     font-size: 19px;
@@ -319,7 +317,6 @@ input[name="code"] {
 
   button {
     width: auto;
-    /* margin-bottom: 32px; */
     font-size: 19px;
     font-size: 1.1875rem;
     line-height: 1;
