@@ -140,6 +140,7 @@ button[data-action-button-primary] {
   margin-top: 10px;
   font-size: 19px;
   line-height: normal;
+  width: auto;
 }
 
 #custom-prompt-logo {
