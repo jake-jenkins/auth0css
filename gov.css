@@ -1053,37 +1053,26 @@ button[value="resend-code"]:focus {
   text-decoration: none;
 }
 
-/* button[value="resend-code"] {
-  border: 0;
-  padding: 2px;
-  margin: 8px 0 0 0;
-  line-height: 18px;
-  display: inline;
+/* Try another method button */
+button[value="pick-authenticator"] {
   cursor: pointer;
-  vertical-align: baseline;
-  border-radius: 3px;
-  color: #1d70b8;
-  background-color: transparent;
-  box-shadow: none;
-  font-size: 19px;
-  text-decoration: underline;
-} */
-
-/* Choose another authenticator button */
-/* button[value="pick-authenticator"] {
+  margin: 9px 0;
+  padding: 0;
   border: 0;
-  padding: 2px;
-  line-height: 18px;
-  display: inline;
-  cursor: pointer;
-  vertical-align: baseline;
-  border-radius: 3px;
-  color: #1d70b8;
   background-color: transparent;
-  box-shadow: none;
-  font-size: 19px;
-  text-decoration: underline;
-} */
+  color: #1d70b8;
+}
+button[value="pick-authenticator"]:hover {
+  color: #003078;
+}
+button[value="pick-authenticator"]:focus {
+  outline: 3px solid transparent;
+  color: #0b0c0c;
+  background-color: #ffdd00;
+  -webkit-box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+  box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+  text-decoration: none;
+}
 
 /* Desktop styles */
 
