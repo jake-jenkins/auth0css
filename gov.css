@@ -930,8 +930,11 @@ label {
 }
 
 input {
-  /* width: 100%; */
   padding: 0 16px;
+}
+
+input#email, input#password {
+  width: 100%;
 }
 
 button {
@@ -946,9 +949,9 @@ button[data-action-button-primary] {
 
 /* View password button */
 
-div.password {
+/* div.password {
   position: relative;
-}
+} */
 
 .hide {
   display: none;
