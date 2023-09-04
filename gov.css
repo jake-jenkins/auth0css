@@ -958,7 +958,7 @@ button[data-action-button-primary] {
 }
 
 /* Hidden tooltip spans */
-.password-icon-tooltip {
+/* .password-icon-tooltip {
   pointer-events: none;
   position: absolute;
   opacity: 0;
@@ -970,10 +970,10 @@ button[data-action-button-primary] {
   font-size: 12px;
   border-radius: 3px;
   transition: opacity .3s ease-in-out;
-}
+} */
 
 /* Hidden toggle spans */
-.screen-reader-only {
+/* .screen-reader-only {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -982,7 +982,7 @@ button[data-action-button-primary] {
   -webkit-clip-path: inset(50%);
   clip-path: inset(50%);
   white-space: nowrap;
-}
+} */
 
 /* Eye icon */
 /* .ulp-button-icon {
