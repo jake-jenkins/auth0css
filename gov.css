@@ -1023,6 +1023,10 @@ section._prompt-box-outer > div > div {
   -webkit-mask-position: center;
 }
 
+.ulp-button-icon:focus .password-icon-tooltip, .ulp-button-icon:hover .password-icon-tooltip {
+  opacity: 1;
+}
+
 /* Phone number preview */
 .ulp-authenticator-selector-text {
   margin: 0 0 12px;
