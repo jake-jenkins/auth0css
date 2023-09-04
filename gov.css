@@ -895,16 +895,9 @@ body {
   margin: 0;
 }
 
-/* .pagecont {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-} */
-
-/* #bodycont {
-  width: 100%;
-  flex-grow: 1;
-} */
+#custom-prompt-logo {
+  display: none;
+}
 
 p {
   margin-top: 0;
@@ -931,114 +924,25 @@ h1 {
   color: #0b0c0c;
 }
 
-/* form[data-form-primary="true"] p {
-  display: none;
-} */
-
-/* div[data-dynamic-label-for="username"] {
-  display: none
-} */
-
-/* label.no-js {
-  clip: unset;
-  clip-path: unset;
-  height: unset;
-  width: unset;
-  position: unset;
-  display: block;
-} */
-
-/* div[data-dynamic-label-for="password"] {
-  display: none;
-} */
-
 label {
-  /* font-family: "GDS Transport", arial, sans-serif; */
-  /* -webkit-font-smoothing: antialiased; */
-  /* -moz-osx-font-smoothing: grayscale; */
-  /* font-weight: 400; */
-  /* font-size: 19px !important; */
-  /* font-size: 1.1875rem !important; */
-  /* line-height: 1.25; */
-  /* color: #0b0c0c; */
   display: block;
   margin-bottom: 5px;
 }
 
 input {
+  width: 100%;
   padding: 0 16px;
 }
 
-/* input {
+button {
   font-family: "GDS Transport", arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.25;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%;
-  height: 40px;
-  height: 2.5rem;
-  margin-top: 0;
-  margin-bottom: 30px;
-  padding: 5px;
-  border: 2px solid #0b0c0c;
-  border-radius: 0;
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-} */
-
-/* input:focus {
-  outline: 3px solid #ffdd00;
-  outline-offset: 0;
-  -webkit-box-shadow: inset 0 0 0 2px;
-  box-shadow: inset 0 0 0 2px;
-} */
-
-/* button {
-  font-family: "GDS Transport", arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 16px;
-  font-size: 1rem;
-  line-height: 1.1875;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  display: inline-block;
-  position: relative;
-  width: 100%;
-  margin-top: 0;
-  margin-right: 0;
-  margin-left: 0;
-  margin-bottom: 22px;
-  padding: 8px 10px 7px;
-  border: 2px solid transparent;
-  border-radius: 0;
-  color: #ffffff;
   background-color: #00703c;
-  -webkit-box-shadow: 0 2px 0 #002d18;
-  box-shadow: 0 2px 0 #002d18;
-  text-align: center;
-  vertical-align: top;
-  cursor: pointer;
-  -webkit-appearance: none;
-} */
+  color: #ffffff;
+}
 
-/* button[data-action-button-primary] {
-  margin-top: 10px;
-  font-size: 19px;
-  line-height: normal;
-  width: auto;
-} */
-
-/* #custom-prompt-logo {
-  display: none;
-} */
+button[data-action-button-primary] {
+  margin-top: 24px;
+}
 
 /* View password button */
 
