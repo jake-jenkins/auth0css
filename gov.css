@@ -949,9 +949,9 @@ button[data-action-button-primary] {
 
 /* View password button */
 
-/* div.password {
+section._prompt-box-outer > div > div {
   position: relative;
-} */
+}
 
 .hide {
   display: none;
@@ -1013,8 +1013,6 @@ button[data-action-button-primary] {
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
 }
-
-/* Comment for pipeline */
 
 /* Phone number preview */
 .ulp-authenticator-selector-text {
