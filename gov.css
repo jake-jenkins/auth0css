@@ -950,13 +950,13 @@ button[data-action-button-primary] {
   display: none;
 }
 
-.password {
+/* .password {
   display: block;
   position: static;
   border: none !important;
-}
+} */
 
-.screen-reader-only {
+/* .screen-reader-only {
   clip: rect(0 0 0 0);
   -webkit-clip-path: inset(50%);
   clip-path: inset(50%);
@@ -965,9 +965,9 @@ button[data-action-button-primary] {
   position: absolute;
   white-space: nowrap;
   width: 1px;
-}
+} */
 
-.password-icon-tooltip {
+/* .password-icon-tooltip {
   pointer-events: none;
   position: absolute;
   opacity: 0;
@@ -979,13 +979,13 @@ button[data-action-button-primary] {
   font-size: 12px;
   border-radius: 3px;
   transition: opacity .3s ease-in-out;
-}
+} */
 
-[data-label=hide-password] {
+/* [data-label=hide-password] {
   display: none;
-}
+} */
 
-.ulp-button-icon {
+/* .ulp-button-icon {
   min-height: 40px !important;
   margin: 0;
   padding: 0;
@@ -996,15 +996,15 @@ button[data-action-button-primary] {
   border-radius: 0;
   background-color: transparent;
   flex-grow: 0;
-}
+} */
 
-div.password > button {
+/* div.password > button {
   position: absolute;
   margin-top: 5px;
   right: 1px;
-}
+} */
 
-.ulp-button-icon span.password {
+/* .ulp-button-icon span.password {
   position: static;
   margin-right: 4px;
   padding: 8px;
@@ -1019,11 +1019,11 @@ div.password > button {
   -webkit-mask-size: 18px;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
-}
+} */
 
-._prompt-box-outer header {
+/* ._prompt-box-outer header {
   margin-bottom: 40px;
-}
+} */
 
 /* Phone number preview */
 .ulp-authenticator-selector-text {
