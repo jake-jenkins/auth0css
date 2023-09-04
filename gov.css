@@ -943,6 +943,7 @@ label {
 } */
 
 input#username, input#password {
+  box-sizing: border-box;
   width: 100%;
 }
 
