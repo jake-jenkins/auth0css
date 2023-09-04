@@ -967,7 +967,7 @@ button[data-action-button-primary] {
   width: 1px;
 } */
 
-/* .password-icon-tooltip {
+.password-icon-tooltip {
   pointer-events: none;
   position: absolute;
   opacity: 0;
@@ -979,11 +979,7 @@ button[data-action-button-primary] {
   font-size: 12px;
   border-radius: 3px;
   transition: opacity .3s ease-in-out;
-} */
-
-/* [data-label=hide-password] {
-  display: none;
-} */
+}
 
 /* .ulp-button-icon {
   min-height: 40px !important;
@@ -996,12 +992,6 @@ button[data-action-button-primary] {
   border-radius: 0;
   background-color: transparent;
   flex-grow: 0;
-} */
-
-/* div.password > button {
-  position: absolute;
-  margin-top: 5px;
-  right: 1px;
 } */
 
 /* .ulp-button-icon span.password {
