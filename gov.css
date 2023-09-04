@@ -938,13 +938,10 @@ label {
   margin-bottom: 5px;
 }
 
-/* input {
-  padding: 0 16px;
-} */
-
 input#username, input#password {
   box-sizing: border-box;
   width: 100%;
+  padding: 0 16px;
 }
 
 button {
