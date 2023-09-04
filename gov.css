@@ -929,11 +929,11 @@ label {
   margin-bottom: 5px;
 }
 
-input {
+/* input {
   padding: 0 16px;
-}
+} */
 
-input#email, input#password {
+input#username, input#password {
   width: 100%;
 }
 
