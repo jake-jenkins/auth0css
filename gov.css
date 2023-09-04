@@ -952,18 +952,22 @@ h1 {
   display: none;
 } */
 
-/* label {
-  font-family: "GDS Transport", arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-weight: 400;
-  font-size: 19px !important;
-  font-size: 1.1875rem !important;
-  line-height: 1.25;
-  color: #0b0c0c;
+label {
+  /* font-family: "GDS Transport", arial, sans-serif; */
+  /* -webkit-font-smoothing: antialiased; */
+  /* -moz-osx-font-smoothing: grayscale; */
+  /* font-weight: 400; */
+  /* font-size: 19px !important; */
+  /* font-size: 1.1875rem !important; */
+  /* line-height: 1.25; */
+  /* color: #0b0c0c; */
   display: block;
   margin-bottom: 5px;
-} */
+}
+
+input {
+  padding: 0 16px;
+}
 
 /* input {
   font-family: "GDS Transport", arial, sans-serif;
