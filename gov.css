@@ -946,7 +946,7 @@ button[data-action-button-primary] {
 
 /* View password button */
 
-/* .hide {
+.hide {
   display: none;
 }
 
@@ -1024,7 +1024,6 @@ div.password > button {
 ._prompt-box-outer header {
   margin-bottom: 40px;
 }
-*/
 
 /* Phone number preview */
 .ulp-authenticator-selector-text {
@@ -1074,26 +1073,3 @@ button[value="pick-authenticator"]:focus {
   text-decoration: none;
 }
 
-/* Desktop styles */
-
-/* @media (min-width: 40.0625em) {
-
-  label {
-    font-size: 19px;
-    font-size: 1.1875rem;
-    line-height: 1.31579;
-  }
-
-  input {
-    font-size: 19px;
-    font-size: 1.1875rem;
-    line-height: 1.31579;
-  }
-
-  button {
-    width: auto;
-    font-size: 19px;
-    font-size: 1.1875rem;
-    line-height: 1;
-  }
-} */
