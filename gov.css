@@ -953,9 +953,9 @@ button[data-action-button-primary] {
   position: relative;
 } */
 
-/* .hide {
+.hide {
   display: none;
-} */
+}
 
 /* Hidden tooltip spans */
 /* .password-icon-tooltip {
