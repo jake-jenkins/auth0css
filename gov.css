@@ -946,15 +946,13 @@ button[data-action-button-primary] {
 
 /* View password button */
 
+div.password {
+  position: relative;
+}
+
 .hide {
   display: none;
 }
-
-/* .password {
-  display: block;
-  position: static;
-  border: none !important;
-} */
 
 /* Hidden tooltip spans */
 .password-icon-tooltip {
@@ -1011,10 +1009,6 @@ button[data-action-button-primary] {
   -webkit-mask-size: 18px;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
-} */
-
-/* ._prompt-box-outer header {
-  margin-bottom: 40px;
 } */
 
 /* Phone number preview */
