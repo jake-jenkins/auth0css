@@ -944,16 +944,6 @@ button[data-action-button-primary] {
   margin-top: 24px;
 }
 
-/* Phone number preview */
-.ulp-authenticator-selector-text {
-  margin: 0 0 12px;
-  font-family: "GDS Transport", arial, sans-serif;
-}
-
-/* input[name="code"] {
-  margin-bottom: 24px;
-} */
-
 /* View password button */
 
 /* .hide {
@@ -1031,16 +1021,38 @@ div.password > button {
   -webkit-mask-position: center;
 }
 
-div[data-dynamic-label-for="code"] {
-  display: none;
-}
-
 ._prompt-box-outer header {
   margin-bottom: 40px;
 }
 */
 
+/* Phone number preview */
+.ulp-authenticator-selector-text {
+  margin: 0 0 12px;
+  font-family: "GDS Transport", arial, sans-serif;
+}
+
 /* Resend SMS button */
+button[value="resend-code"] {
+  cursor: pointer;
+  margin: 9px 0;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  color: #1d70b8;
+}
+button[value="resend-code"]:hover {
+  color: #003078;
+}
+button[value="resend-code"]:focus {
+  outline: 3px solid transparent;
+  color: #0b0c0c;
+  background-color: #ffdd00;
+  -webkit-box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+  box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c;
+  text-decoration: none;
+}
+
 /* button[value="resend-code"] {
   border: 0;
   padding: 2px;
