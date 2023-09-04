@@ -285,6 +285,895 @@ input[name="code"] {
   margin-bottom: 24px;
 }
 
+body {
+  background: #fff;
+}
+
+._prompt-box-outer {
+  all: revert;
+}
+
+div[data-event-id] {
+  padding: unset;
+}
+
+div,
+h1,
+p {
+  text-align: left !important;
+}
+
+.govuk-link {
+  font-size: 19px;
+  font-size: 1.1875rem;
+  line-height: 1.31579;
+}
+
+/* GovUK Input */
+
+.input-wrapper .input {
+  height: 40px;
+  height: 2.5rem;
+}
+
+.ulp-button-icon {
+  min-height: 40px !important;
+}
+
+/* GovUK Button */
+
+button[value="default"],
+button.js-required,
+._selector-item-otp button,
+._selector-item-sms button,
+._selector-item-webauthn-roaming button,
+._selector-item-recovery-code button,
+div.ulp-button-list button,
+.btn-gds-primary a {
+  border: 2px solid rgba(0, 0, 0, 0) !important;
+  -webkit-box-shadow: 0 2px 0 #002d18 !important;
+  box-shadow: 0 2px 0 #002d18 !important;
+  cursor: pointer !important;
+  display: inline !important;
+  font-size: 19px !important;
+  font-weight: 400 !important;
+  line-height: normal !important;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 22px !important;
+  min-height: auto;
+  padding: 8px 10px 7px !important;
+  text-decoration: none !important;
+  transition: none;
+  vertical-align: top;
+  width: auto !important;
+}
+
+/* GovUK Button - link (invalid link / password change) */
+
+._prompt-box-outer a[href*="/api/auth/login"] {
+  background-color: #00703c;
+  border: 2px solid rgba(0, 0, 0, 0) !important;
+  -webkit-box-shadow: 0 2px 0 #002d18 !important;
+  box-shadow: 0 2px 0 #002d18 !important;
+  position: absolute;
+}
+
+/* GovUK Button - link (Resend confirmation link) */
+
+button[value="resend-email-action"] {
+  color: #1d70b8;
+  display: inline-block;
+  box-shadow: none;
+  font-family: "GDS Transport", arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 19px;
+  font-size: 1.1875rem;
+  font-weight: 700;
+  min-height: auto;
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+  text-decoration-thickness: max(1px, 0.0625rem);
+  text-underline-offset: 0.1em;
+  transition: none;
+  width: auto;
+  max-width: 100%;
+}
+
+button[value="resend-email-action"]:focus {
+  background-color: #fd0;
+  color: #0b0c0c;
+  -webkit-box-shadow: 0 -2px #fd0, 0 4px #0b0c0c;
+  box-shadow: 0 -2px #fd0, 0 4px #0b0c0c !important;
+  outline: 3px solid rgba(0, 0, 0, 0);
+  text-decoration: none;
+}
+
+button[value="resend-email-action"]:hover {
+  box-shadow: none;
+  color: #003078;
+  text-decoration-thickness: max(3px, 0.1875rem, 0.12em);
+  -webkit-text-decoration-skip-ink: none;
+  text-decoration-skip-ink: none;
+  -webkit-text-decoration-skip: none;
+  text-decoration-skip: none;
+}
+
+/* added with overrides.js */
+.btn-gds-primary {
+  background: transparent;
+  display: inline-block;
+  min-height: unset;
+  padding: 0;
+  width: auto;
+}
+
+.btn-gds-primary:hover {
+  background: transparent;
+  box-shadow: none;
+}
+
+.btn-gds-primary a {
+  position: relative !important;
+}
+
+.btn-gds-primary a:focus {
+  padding: 10px !important;
+}
+
+/* GovUK Button :active */
+
+.govuk-button:active {
+  top: 2px;
+}
+
+/* GovUK Button :focus */
+
+button[value="default"]:focus,
+button.js-required:focus,
+._selector-item-otp button:focus,
+._selector-item-sms button:focus,
+._selector-item-webauthn-roaming button:focus,
+._selector-item-recovery-code butto:focus,
+div.ulp-button-list button:focus,
+._prompt-box-outer a[href*="/api/auth/login"]:focus {
+  border-color: #fd0 !important;
+  outline: 3px solid rgba(0, 0, 0, 0) !important;
+  -webkit-box-shadow: inset 0 0 0 1px #fd0 !important;
+  box-shadow: inset 0 0 0 1px #fd0 !important;
+}
+
+button[value="default"]:focus:not(:active):not(:hover),
+button.js-required:focus:not(:active):not(:hover),
+._selector-item-otp button:focus:not(:active):not(:hover),
+._selector-item-sms button:focus:not(:active):not(:hover),
+._selector-item-webauthn-roaming button:focus:not(:active):not(:hover),
+._selector-item-recovery-code butto:focus:not(:active):not(:hover),
+div.ulp-button-list button:focus:not(:active):not(:hover),
+._prompt-box-outer a[href*="/api/auth/login"]:focus:not(:active):not(:hover) {
+  border-color: #fd0 !important;
+  color: #0b0c0c !important;
+  background-color: #fd0 !important;
+  -webkit-box-shadow: 0 2px 0 #0b0c0c !important;
+  box-shadow: 0 2px 0 #0b0c0c !important;
+}
+
+/* GovUK Button - primary:hover */
+
+button[value="default"]:hover,
+._prompt-box-outer a[href*="/api/auth/login"]:hover {
+  background-color: #005a30 !important;
+  color: #fff !important;
+}
+
+/* GovUK Button - primary:active */
+
+button[value="default"]:active,
+._prompt-box-outer a[href*="/api/auth/login"]:active {
+  background-color: #005a30 !important;
+  color: #fff !important;
+}
+
+/* GovUK Button - secondary */
+
+button.js-required,
+._selector-item-otp button,
+._selector-item-sms button,
+._selector-item-webauthn-roaming button,
+._selector-item-recovery-code button,
+div.ulp-button-list button {
+  background-color: #f3f2f1;
+}
+
+/* li[class*="selector-item"] button:focus {
+  background-color: #f3f2f1;
+  box-shadow: 0 0 0 4px rgba(255,255,255, 0.15) !important;
+} */
+
+/* li[class*="selector-item"] button:focus-visible {
+  outline: -webkit-focus-ring-color auto 1px;
+} */
+
+/* GovUK Button - secondary:hover */
+
+button.js-required:hover,
+._selector-item-otp button:hover,
+._selector-item-sms button:hover,
+._selector-item-webauthn-roaming button:hover,
+._selector-item-recovery-code button:hover,
+div.ulp-button-list button:hover {
+  background-color: #dbdad9;
+}
+
+/* Hide underline */
+._selector-item-otp,
+._selector-item-sms,
+._selector-item-recovery-code,
+._selector-item-webauthn-roaming {
+  all: revert !important;
+  list-style: none !important;
+}
+
+li[class*="selector-item"] {
+  display: inline !important;
+}
+
+li[class*="selector-item"] button span:nth-child(2) {
+  margin-right: 0 !important;
+}
+
+button.js-required {
+  display: none !important;
+}
+
+.js-enabled button.js-required {
+  display: revert !important;
+}
+
+button.js-required._selector-item-webauthn-roaming,
+li.js-required._selector-item-webauthn-roaming,
+._selector-item-otp button span:nth-child(odd),
+._selector-item-sms button span:nth-child(odd),
+._selector-item-webauthn-roaming button span:nth-child(odd),
+.ulp-button-list button span:nth-child(odd),
+._selector-item-recovery-code span:nth-child(odd) {
+  display: none !important;
+}
+
+/* Button type link */
+button[value="resend-code"] {
+  font-size: 19px;
+}
+
+/* SMS phone number */
+
+.ulp-authenticator-selector-text {
+  background: #f3f2f1;
+  display: inline-block;
+  line-height: 52px;
+  margin-left: -16px;
+  min-height: 52px;
+  padding: 0 16px;
+}
+
+/* Weird list styling on MFa methods */
+
+#main-content > main > section > div > div > div > ul {
+  all: revert !important;
+  padding-inline-start: 0px !important;
+}
+
+/* Hide back head other mfa */
+button[aria-label="Go back"] {
+  display: none !important;
+}
+
+/* Show headings that are hidden */
+h1.screen-reader-only {
+  display: contents;
+}
+
+header {
+  border-bottom: none !important;
+}
+
+/* Remove widget padding */
+
+main header {
+  padding: 0px !important;
+}
+
+#main-content > div > div > main > section > div > div > div {
+  padding: 0px !important;
+}
+
+/* Style all headings */
+
+h1 {
+  font-weight: 700 !important;
+  font-size: 2.25rem !important;
+  font-family: "GDS Transport", arial, sans-serif;
+  line-height: 1.1111111111;
+}
+
+/* Links */
+
+main a,
+button[value="toggle-view"],
+button[value="pick-authenticator"] {
+  font-size: 19px !important;
+  padding: unset !important;
+}
+
+main a:focus,
+button[value="toggle-view"]:focus,
+button[value="pick-authenticator"]:focus {
+  outline: 3px solid transparent !important;
+  color: #0b0c0c !important;
+  background-color: #ffdd00 !important;
+  -webkit-box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c !important;
+  box-shadow: 0 -2px #ffdd00, 0 4px #0b0c0c !important;
+  text-decoration: none !important;
+  border-radius: 0pt !important;
+  padding: unset !important;
+  font-size: 19px !important;
+}
+
+.ulp-alternate-action.center {
+  text-align: start;
+}
+
+/* Remove JS animation for input labels */
+div[data-dynamic-label-for] {
+  display: none;
+}
+
+/* fill screen */
+#main-content {
+  min-height: calc(100vh - 333px);
+}
+
+.govuk-phase-banner {
+  margin-top: 10px;
+}
+
+/* Inputs */
+
+input[type="text"],
+input[type="password"] {
+  margin: unset;
+  margin-top: 5px;
+  font-family: "GDS Transport", arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 1.25;
+  border: 2px solid #0b0c0c !important;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  transition: none;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  outline: 3px solid #ffdd00 !important;
+  outline-offset: 0 !important;
+  -webkit-box-shadow: inset 0 0 0 2px !important;
+  box-shadow: inset 0 0 0 2px !important;
+}
+
+/* Add space between username and password inputs */
+.input-wrapper:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+/* Labels */
+
+main header {
+  margin-bottom: 40px;
+}
+
+label {
+  /*  display: contents; */
+  color: #000000 !important;
+  font-family: "GDS Transport", arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 19px !important;
+  font-size: 1rem;
+  line-height: 1.25;
+  color: #0b0c0c;
+  cursor: default;
+  /* IE Fixes */
+  height: 20px !important;
+  clip: inherit !important;
+  clip-path: inherit !important;
+  width: auto !important;
+  overflow: inherit !important;
+  position: inherit !important;
+  padding: 0px !important;
+  left: 0px !important;
+  transform: none !important;
+  -webkit-transition: none !important;
+  -moz-transition: none !important;
+  -o-transition: none !important;
+  transition: none !important;
+}
+
+/* Yellow Password Focus */
+.password {
+  display: block;
+  position: static;
+  border: none !important;
+}
+
+.password:focus {
+  border: none !important;
+}
+
+label[for="password"]:focus {
+  color: red;
+}
+
+.ulp-button-icon.focus {
+  border: none !important;
+}
+
+label[for="password"]:focus {
+  border: none !important;
+}
+
+div.password > button {
+  position: absolute;
+  margin-top: 5px;
+  right: 1px;
+}
+
+/* GDS Error Messages */
+
+.ulp-input-error-message {
+  font-size: 19px;
+  line-height: 1.31579;
+  font-family: "GDS Transport", arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 700;
+  display: block;
+  margin-top: 0;
+  margin-bottom: 15px;
+  clear: both;
+  color: #d4351c;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  padding-left: 15px;
+  border-left: 5px solid #d4351c;
+}
+
+.ulp-input-error-icon {
+  display: none;
+}
+
+#prompt-alert {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  border: 5px solid #d4351c;
+  padding: 20px;
+  background: #ffffff;
+}
+
+#prompt-alert p {
+  color: #d4351c;
+  font-weight: 700;
+  font-size: 19px;
+  display: block;
+}
+
+#prompt-alert p::before {
+  content: "There is a problem";
+  display: block;
+  font-size: 24px;
+  color: #000000;
+  margin-bottom: 20px;
+  text-decoration: none;
+}
+
+/* password helper tweaks */
+
+body:not(.js-enabled) .no-arrow.hide {
+  display: block;
+}
+
+.no-arrow {
+  border: none !important;
+}
+
+.no-arrow li[data-error-code^="password-policy"] {
+  list-style: none;
+}
+
+.no-arrow > div {
+  font-family: "GDS Transport", arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #0b0c0c;
+  padding: 15px !important;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  clear: both;
+  border-left: 5px solid #b1b4b6;
+}
+
+/* password reset success */
+
+.success-lock,
+.error-cross {
+  display: none;
+}
+
+/* Dangerous */
+
+/* align QR code */
+div.ce16dec0e {
+  text-align: left;
+}
+
+/* reduce size of mfa app auth code input */
+.text {
+  flex-direction: column;
+  align-items: flex-start;
+  position: static;
+  display: block;
+}
+
+/* App Auth Enroll */
+
+/* remove then */
+#main-content
+  > div
+  > div
+  > main
+  > section
+  > div
+  > div
+  > div
+  > div.c11efa61b.cc1f6f879
+  > span {
+  display: none;
+}
+
+/* Resend SMS link */
+#main-content
+  > div
+  > div
+  > main
+  > section
+  > div
+  > div
+  > div
+  > div.ce957b265.c457ec876
+  > div
+  > div.cd2a15369.c155caf8c {
+  text-align: left;
+}
+
+/* Reduce the code input width */
+/* #code {
+    width: 110px;
+} */
+
+/* SMS country selectors */
+
+button[value="pick-country-code"] {
+  background: #f3f2f1;
+  border: 2px solid #0b0c0c !important;
+  transition: none;
+}
+
+button[value="pick-country-code"]:focus {
+  -webkit-box-shadow: inset 0 0 0 2px !important;
+  box-shadow: inset 0 0 0 2px !important;
+  outline: 3px solid #ffdd00;
+  outline-offset: 0;
+  transition: none;
+}
+
+._widget ._prompt-box-outer header + div > ul {
+  margin-top: 0;
+  padding: 4px 0 40px;
+}
+
+._widget
+  ._prompt-box-outer
+  header
+  + div
+  ul
+  button[value^="selection-action"]:focus {
+  background: #f3f2f1;
+}
+
+._widget
+  ._prompt-box-outer
+  header
+  + div
+  ul
+  button[value^="selection-action"]:focus {
+  background: white;
+}
+
+._widget
+  ._prompt-box-outer
+  header
+  + div
+  ul
+  button[value^="selection-action"]:focus {
+  -webkit-box-shadow: inset 0 0 0 2px !important;
+  box-shadow: inset 0 0 0 2px !important;
+  outline: 3px solid #ffdd00;
+  outline-offset: 0;
+  transition: none;
+}
+
+._link-selection-action {
+  margin: 0 3px;
+  text-decoration: none;
+  width: calc(100% - 6px) !important;
+}
+
+/* MFA hide push and key options */
+button[value="push-notification::0"],
+button[value="webauthn-roaming::3"],
+li._selector-item-push-notification {
+  display: none !important;
+}
+
+ul {
+  all: revert;
+  padding-inline-start: 0px;
+}
+
+button[value="otp::1"],
+button[value="sms::2"],
+button[value="recovery-code::1"] {
+  display: block !important;
+}
+
+/* Recovery Code Checkbox */
+
+.c5235ea7a:checked + .cef0c2721:before,
+.c5235ea7a:checked-.cef0c2721:before {
+  display: none;
+}
+
+input[type="checkbox"] {
+  all: revert;
+  cursor: pointer;
+  height: 0;
+  margin: 0 0 0 -3px;
+  opacity: 0;
+  position: unset;
+  width: 0;
+  z-index: 1;
+}
+
+input[type="checkbox"] + label {
+  cursor: pointer;
+  display: inline-block;
+  margin-bottom: 0;
+  padding: 8px 15px 5px 55px !important;
+  position: relative !important;
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+
+input[type="checkbox"] + label::before {
+  background: rgba(0, 0, 0, 0) !important;
+  border: 2px solid currentcolor !important;
+  border-radius: 0 !important;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  content: "";
+  height: 40px !important;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: none !important;
+  width: 40px !important;
+}
+
+input[type="checkbox"]:checked + label::before {
+  border-color: #2d333a;
+}
+
+input[type="checkbox"]:hover + label::before {
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+input[type="checkbox"]:focus + label::before {
+  border-width: 4px !important;
+  outline: 3px solid rgba(0, 0, 0, 0);
+  outline-offset: 1px;
+  -webkit-box-shadow: 0 0 0 3px #fd0;
+  box-shadow: 0 0 0 3px #fd0;
+}
+
+input[type="checkbox"]:focus:hover + label:before {
+  -webkit-box-shadow: 0 0 0 3px #fd0 !important;
+  box-shadow: 0 0 0 3px #fd0 !important;
+}
+
+input[type="checkbox"] + label::after {
+  background: rgba(0, 0, 0, 0) !important;
+  border: solid;
+  border-width: 0 0 5px 5px;
+  border-top-color: rgba(0, 0, 0, 0);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  content: "";
+  height: 12px !important;
+  -webkit-mask-image: none !important;
+  mask-image: none !important;
+  opacity: 0;
+  position: absolute;
+  top: 11px !important;
+  left: 9px !important;
+  -webkit-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  transition: none !important;
+  width: 23px !important;
+}
+
+input[type="checkbox"]:checked + label::after {
+  opacity: 1 !important;
+}
+
+/* Forgot Password hide icon */
+.success-email {
+  display: none;
+}
+
+/* Signup text */
+.ulp-alternate-action {
+  font-size: 19px;
+}
+
+/* Show an item, used to override a hide */
+.ipo-show { 
+  display: inline-block !important; width: auto; }
+
+#nojs-toc {
+  margin-top: 50px;
+}
+
+/* GovUK input errors */
+
+.govuk-form-group--error label {
+  display: inline-block;
+  margin-bottom: 15px;
+}
+
+.govuk-form-group--error .ulp-input-error-message {
+  border: none;
+  margin: 0 0 15px;
+  padding-left: 0;
+}
+
+.govuk-form-group--error input,
+.input-wrapper .cdde3c29d input {
+  border-color: #d00e17 !important;
+}
+
+.govuk-form-group--error input:focus {
+  border-color: #0b0c0c !important;
+}
+
+/* password error */
+
+.input-wrapper:not(.govuk-form-group--error) > .cdde3c29d {
+  border-left: 5px solid #d4351c !important;
+  display: block;
+  padding-left: 15px;
+}
+
+/* .input-wrapper:not(.govuk-form-group--error) > div {
+  border: none !important;
+  padding-left: 0;
+} */
+
+.input-wrapper > .cdde3c29d:focus-within {
+  box-shadow: none !important;
+}
+
+.input-wrapper > .cdde3c29d label {
+  color: #d00e17;
+}
+
+.input-wrapper:not(.govuk-form-group--error)
+  > .cdde3c29d.password
+  label::after {
+  color: #d4351c;
+  content: "Enter a valid password";
+  display: block;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+.input-wrapper > .cdde3c29d input:focus {
+  border-color: #0b0c0c !important;
+}
+
+/* stack mfa options on enrolment */
+.ulp-button-list form {
+  display: block;
+}
+
+/* Experimental hide verify button an text while js redirect loads */
+#main-content
+  > div
+  > div
+  > main
+  > section
+  > div
+  > form
+  > div.c2118f57a
+  > div
+  > section
+  > h3,
+#main-content
+  > div
+  > div
+  > main
+  > section
+  > div
+  > form
+  > div.c2118f57a
+  > div
+  > section
+  > button {
+  display: none;
+}
+
+/* Hide link to frontend registration, override on sign in screen */
+#create-account,
+#forgot-password {
+  display: none;
+}
+
+/* Override red error border */
+
+:root {
+  --error-color: #fff;
+}
+
+/* Fix weird full width on sign in button after password reset */
+div.c818c634d.cab70d39b.c9fec752d.c570086c6 {
+  display: inline-flex;
+  width: auto;
+}
+
+/* Hide Forgot Password? link above the continue button on the Sign in Page */
+
+a[href*="reset-password/request"] {
+  display: none;
+}
+
+/* Increase the space beteen the forgot pasword and create account links on sign-in page */
+#create-account {
+  margin-bottom: 32px;
+}
+
 /* Desktop styles */
 
 @media (min-width: 40.0625em) {
