@@ -1035,7 +1035,7 @@ div.password > button {
 /* Resend SMS button */
 button[value="resend-code"] {
   cursor: pointer;
-  margin: 9px 0;
+  margin-top: 9px;
   padding: 0;
   border: 0;
   background-color: transparent;
@@ -1056,7 +1056,7 @@ button[value="resend-code"]:focus {
 /* Try another method button */
 button[value="pick-authenticator"] {
   cursor: pointer;
-  margin: 9px 0;
+  margin-bottom: 9px;
   padding: 0;
   border: 0;
   background-color: transparent;
