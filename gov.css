@@ -985,7 +985,7 @@ button[data-action-button-primary] {
 }
 
 /* Eye icon */
-.ulp-button-icon {
+/* .ulp-button-icon {
   min-height: 40px !important;
   margin: 0;
   padding: 0;
@@ -996,8 +996,8 @@ button[data-action-button-primary] {
   border-radius: 0;
   background-color: transparent;
   flex-grow: 0;
-}
-.ulp-button-icon span.password {
+} */
+/* .ulp-button-icon span.password {
   position: static;
   margin-right: 4px;
   padding: 8px;
@@ -1012,7 +1012,7 @@ button[data-action-button-primary] {
   -webkit-mask-size: 18px;
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-position: center;
-}
+} */
 
 /* Phone number preview */
 .ulp-authenticator-selector-text {
