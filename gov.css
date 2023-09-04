@@ -891,21 +891,20 @@ a[href*="reset-password/request"] {
 
 /* Sandbox Overrides */
 
-/* body {
+body {
   margin: 0;
-  background-color: white;
 }
 
-.pagecont {
+/* .pagecont {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
-}
+} */
 
-#bodycont {
+/* #bodycont {
   width: 100%;
   flex-grow: 1;
-}
+} */
 
 p {
   margin-top: 0;
@@ -932,28 +931,28 @@ h1 {
   color: #0b0c0c;
 }
 
-form[data-form-primary="true"] p {
+/* form[data-form-primary="true"] p {
   display: none;
-}
+} */
 
-div[data-dynamic-label-for="username"] {
+/* div[data-dynamic-label-for="username"] {
   display: none
-}
+} */
 
-label.no-js {
+/* label.no-js {
   clip: unset;
   clip-path: unset;
   height: unset;
   width: unset;
   position: unset;
   display: block;
-}
+} */
 
-div[data-dynamic-label-for="password"] {
+/* div[data-dynamic-label-for="password"] {
   display: none;
-}
+} */
 
-label {
+/* label {
   font-family: "GDS Transport", arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -964,9 +963,9 @@ label {
   color: #0b0c0c;
   display: block;
   margin-bottom: 5px;
-}
+} */
 
-input {
+/* input {
   font-family: "GDS Transport", arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -987,16 +986,16 @@ input {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-}
+} */
 
-input:focus {
+/* input:focus {
   outline: 3px solid #ffdd00;
   outline-offset: 0;
   -webkit-box-shadow: inset 0 0 0 2px;
   box-shadow: inset 0 0 0 2px;
-}
+} */
 
-button {
+/* button {
   font-family: "GDS Transport", arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -1024,16 +1023,16 @@ button {
   vertical-align: top;
   cursor: pointer;
   -webkit-appearance: none;
-}
+} */
 
-button[data-action-button-primary] {
+/* button[data-action-button-primary] {
   margin-top: 10px;
   font-size: 19px;
   line-height: normal;
   width: auto;
-}
+} */
 
-#custom-prompt-logo {
+/* #custom-prompt-logo {
   display: none;
 } */
 
