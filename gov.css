@@ -898,12 +898,46 @@ a[href*="reset-password/request"] {
   margin-bottom: 32px;
 }
 
-
-/* ------------------------------------------------------- */
-/* Overrides September 2023 */
-/* ------------------------------------------------------- */
-
+/* Prevent password label from moving when input focused */
 div.password[data-action-text] {
   position: static !important;
 }
 
+/* Password reset sign-in button */
+
+section._prompt-box-outer div[data-event-id] > section > div {
+  border: 2px solid rgba(0, 0, 0, 0) !important;
+  -webkit-box-shadow: 0 2px 0 #002d18 !important;
+  box-shadow: 0 2px 0 #002d18 !important;
+  cursor: pointer !important;
+  min-height: auto;
+  padding: 8px 10px 7px !important;
+  width: max-content !important;
+}
+
+section._prompt-box-outer div[data-event-id] > section > div:focus {
+  border-color: #fd0 !important;
+  outline: 3px solid rgba(0, 0, 0, 0) !important;
+  -webkit-box-shadow: inset 0 0 0 1px #fd0 !important;
+  box-shadow: inset 0 0 0 1px #fd0 !important;
+}
+
+section._prompt-box-outer div[data-event-id] > section > div:focus:not(:active):not(:hover) {
+  border-color: #fd0 !important;
+  color: #0b0c0c !important;
+  background-color: #fd0 !important;
+  -webkit-box-shadow: 0 2px 0 #0b0c0c !important;
+  box-shadow: 0 2px 0 #0b0c0c !important;
+}
+
+section._prompt-box-outer div[data-event-id] > section > div:hover,
+._prompt-box-outer a[href*="/api/auth/login"]:hover {
+  background-color: #005a30 !important;
+  color: #fff !important;
+}
+
+section._prompt-box-outer div[data-event-id] > section > div:active,
+._prompt-box-outer a[href*="/api/auth/login"]:active {
+  background-color: #005a30 !important;
+  color: #fff !important;
+}
