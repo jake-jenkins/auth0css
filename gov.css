@@ -905,7 +905,7 @@ div.password[data-action-text] {
 
 /* Password reset sign-in button */
 
-section._prompt-box-outer div[data-event-id] > section > div {
+section._prompt-box-outer div[data-event-id] > section > div > a {
   border: 2px solid rgba(0, 0, 0, 0) !important;
   -webkit-box-shadow: 0 2px 0 #002d18 !important;
   box-shadow: 0 2px 0 #002d18 !important;
@@ -915,14 +915,14 @@ section._prompt-box-outer div[data-event-id] > section > div {
   width: max-content !important;
 }
 
-section._prompt-box-outer div[data-event-id] > section > div:focus {
+section._prompt-box-outer div[data-event-id] > section > div > a:focus {
   border-color: #fd0 !important;
   outline: 3px solid rgba(0, 0, 0, 0) !important;
   -webkit-box-shadow: inset 0 0 0 1px #fd0 !important;
   box-shadow: inset 0 0 0 1px #fd0 !important;
 }
 
-section._prompt-box-outer div[data-event-id] > section > div:focus:not(:active):not(:hover) {
+section._prompt-box-outer div[data-event-id] > section > div > a:focus:not(:active):not(:hover) {
   border-color: #fd0 !important;
   color: #0b0c0c !important;
   background-color: #fd0 !important;
@@ -930,14 +930,12 @@ section._prompt-box-outer div[data-event-id] > section > div:focus:not(:active):
   box-shadow: 0 2px 0 #0b0c0c !important;
 }
 
-section._prompt-box-outer div[data-event-id] > section > div:hover,
-._prompt-box-outer a[href*="/api/auth/login"]:hover {
+section._prompt-box-outer div[data-event-id] > section > div > a:hover {
   background-color: #005a30 !important;
   color: #fff !important;
 }
 
-section._prompt-box-outer div[data-event-id] > section > div:active,
-._prompt-box-outer a[href*="/api/auth/login"]:active {
+section._prompt-box-outer div[data-event-id] > section > div > a:active {
   background-color: #005a30 !important;
   color: #fff !important;
 }
