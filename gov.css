@@ -904,6 +904,6 @@ a[href*="reset-password/request"] {
 /* ------------------------------------------------------- */
 
 div.password[data-action-text] {
-  position: static;
+  position: static !important;
 }
 
