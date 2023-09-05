@@ -910,6 +910,7 @@ section._prompt-box-outer div[data-event-id] > section > div {
 }
 
 section._prompt-box-outer div[data-event-id] > section > div > a {
+  margin-top: 24px;
   border: 2px solid rgba(0, 0, 0, 0) !important;
   -webkit-box-shadow: 0 2px 0 #002d18 !important;
   box-shadow: 0 2px 0 #002d18 !important;
